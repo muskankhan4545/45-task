@@ -1,23 +1,11 @@
-//Excercise#03//
-//Name Cases//
+//Excercise #2
+//personal messages:
 
-//Store a person's name in a variable and then print that person's name in lowercase, uppercase and titlecase.//
+/*
+store a person's name in a variable,and print a message to that person .your 
+message should be a simple,such as "Hello Eric",would you like to learn some 
+python today?
+*/
 
-let personname: string = "muskan khan";
-
-//lowercase
-
-console.log(personname.toLowerCase());
-
-//uppercase
-
-console.log(personname.toUpperCase());
-
-//titlecase
-
-let firstletter: string = personname.charAt(0).toUpperCase();
-let restletter: string = personname.slice(1).toLowerCase();
-
-let titlecase = firstletter + restletter
-console.log(titlecase);
-
+let personname:string ="ilahibux";
+console.log("Hello" + personname + "would you like to learn some python today?")
